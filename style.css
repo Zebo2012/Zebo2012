@@ -20,6 +20,11 @@
     margin-right: 1000px;
 }
 
+.logo :hover{
+    width: 64px;
+    color: rgb(181, 221, 206);
+}
+
 ul li {
     list-style: none;
     text-align: end;
@@ -40,6 +45,10 @@ ul {
     gap: 100px;
     margin-top: 25px;
     color: rgb(231, 222, 222);
+}
+
+ul :hover{
+    color: rgb(181, 221, 206);
 }
 
 .texts {
@@ -67,5 +76,29 @@ ul {
     background-color: rgb(30, 28, 2);
     margin-top: 150px;
     color: rgb(231, 222, 222);
+    display: flex;
+    gap: 100px;
+}
+
+.input {
+    width: 203px;
+    height: 40px;
+    display: flex;
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    align-items: center;
+    position: relative;
+    top: 70px;
+    left: 100px;
+}
+
+.input button {
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(71, 149, 119);
+    color: white;
+    margin-left: 70px;
 }
 
